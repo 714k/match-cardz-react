@@ -1,7 +1,7 @@
 import React from "react";
-import './logo-app.css'
+import './logo.css'
 
-export default class LogoApp extends React.Component {
+export default class LogoGame extends React.Component {
   render() {
     return (
         <p className="logo">
