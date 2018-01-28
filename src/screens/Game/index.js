@@ -9,12 +9,14 @@ import {
   decrementAsync
 } from '../../modules/counter'
 import HeaderGame from "../../components/HeaderGame";
+import GameBar from "../../components/GameBar";
 
 const Game = props => (
   <div>
     <HeaderGame />
+    <GameBar />
     <div className="content">
-      <h2>Game Screen</h2>
+      <h2>infinitiveVerb</h2>
       <p><button onClick={() => props.changePage()}>Return to Main</button></p>
     </div>  
   </div>

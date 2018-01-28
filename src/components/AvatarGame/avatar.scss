@@ -1,0 +1,14 @@
+@import '../../common/scss/variables.scss';
+
+.avatar {
+  position: absolute;
+  display: inline-block;
+  margin: 0;
+  right: 0.5em;
+  top: 0.5em;
+  color: $username-color;
+}
+
+.fa-user-circle-o {
+  font-size: 3em;
+}
