@@ -1,0 +1,9 @@
+/* colors */
+.menu {
+  margin: 0.5em;
+  font-size: 2em;
+  display: inline-block;
+  float: left; }
+  .menu .iconMenu {
+    margin: 0;
+    color: #8b7dff; }
