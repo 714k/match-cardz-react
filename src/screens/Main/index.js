@@ -8,30 +8,30 @@ import {
   decrement,
   decrementAsync
 } from '../../modules/counter';
-import LogoApp from "../../components/LogoApp";
-import ButtonApp from "../../components/ButtonApp";
+import LogoGame from "../../components/LogoGame";
+import ButtonGame from "../../components/ButtonGame";
 
 const Main = props => (
   <div className="app">
-    <LogoApp />
+    <LogoGame />
     <div className="content">
       <p className="centered">
-        <ButtonApp 
+        <ButtonGame 
           classButton="btn lg" 
           titleButton="Ready to play"
           event={() => props.changePage('/game')}
           />
-        <ButtonApp 
+        <ButtonGame 
           classButton="btn lg" 
           titleButton="Settings"
           event={() => props.changePage('/settings')}
           />
-        <ButtonApp 
+        <ButtonGame 
           classButton="btn lg" 
           titleButton="Login"
           event={() => props.changePage('/login')}
           />
-        <ButtonApp 
+        <ButtonGame 
           classButton="btn lg" 
           titleButton="Register"
           event={() => props.changePage('/register')}
