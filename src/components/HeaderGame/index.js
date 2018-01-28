@@ -1,11 +1,13 @@
 import React from "react";
+import MenuGame from "../MenuGame";
 import './header.css'
 
 export default class HeaderGame extends React.Component {
   render() {
     return (
       <header>
-        <h1>Pininos React</h1>
+        <MenuGame />
+        <h1>pininosReact</h1>
       </header>
     );
   }
