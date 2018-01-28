@@ -4,12 +4,7 @@
 /node_modules
 
 # css files
-*.css
-**.css
 **/*.css
-**/**/*.css
-**/**/**/*.css
-**/**/**/**/*.css
 
 # testing
 /coverage
