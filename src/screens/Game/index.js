@@ -8,11 +8,11 @@ import {
   decrement,
   decrementAsync
 } from '../../modules/counter'
-import HeaderApp from "../../components/HeaderApp";
+import HeaderGame from "../../components/HeaderGame";
 
 const Game = props => (
   <div>
-    <HeaderApp />
+    <HeaderGame />
     <div className="content">
       <h2>Game Screen</h2>
       <p><button onClick={() => props.changePage()}>Return to Main</button></p>

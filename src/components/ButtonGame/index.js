@@ -1,7 +1,7 @@
 import React from "react";
-import './button-app.css'
+import './button.css'
 
-export default class LogoApp extends React.Component {
+export default class ButtonGame extends React.Component {
   constructor(props) {
     super(props);
     this.state = {

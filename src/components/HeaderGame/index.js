@@ -1,7 +1,7 @@
 import React from "react";
-import './header-app.css'
+import './header.css'
 
-export default class HeaderApp extends React.Component {
+export default class HeaderGame extends React.Component {
   render() {
     return (
       <header>
