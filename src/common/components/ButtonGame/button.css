@@ -1,0 +1,13 @@
+.btn {
+  border: none;
+  padding: 0.5em 1em;
+  background-color: #b96928;
+  color: aliceblue;
+  font-size: 1em;
+  margin: 0.5em;
+  cursor: pointer; }
+
+.btn.lg {
+  padding: 0.75em 1.5em;
+  font-size: 1.5em;
+  min-width: 80%; }

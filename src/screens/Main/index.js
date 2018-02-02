@@ -8,8 +8,8 @@ import {
   decrement,
   decrementAsync
 } from '../../modules/counter';
-import LogoGame from "../../components/LogoGame";
-import ButtonGame from "../../components/ButtonGame";
+import LogoGame from "../../common/components/LogoGame";
+import ButtonGame from "../../common/components/ButtonGame";
 
 const Main = props => (
   <div className="app">

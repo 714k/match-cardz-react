@@ -2,10 +2,10 @@ import React from 'react';
 import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 import { ConnectedRouter } from 'react-router-redux';
-import store, { history } from './store';
-import 'font-awesome/css/font-awesome.min.css';
+import store, { history } from './store/';
 import App from './screens/App';
 
+import 'font-awesome/css/font-awesome.min.css';
 import './index.css'
 
 const target = document.querySelector('#root')

@@ -8,8 +8,8 @@ import {
   decrement,
   decrementAsync
 } from '../../modules/counter'
-import HeaderGame from "../../components/HeaderGame";
-import GameBar from "../../components/GameBar";
+import HeaderGame from "../../common/components/HeaderGame";
+import GameBar from "../../common/components/GameBar";
 
 const Game = props => (
   <div>

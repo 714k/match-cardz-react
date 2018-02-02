@@ -1,0 +1,12 @@
+/* colors */
+.username {
+  position: absolute;
+  right: 0.5em;
+  top: 3.15em;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0.1em 1em;
+  border-radius: 1em;
+  color: #161238;
+  background-color: #d9f9ff; }
