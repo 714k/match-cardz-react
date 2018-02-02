@@ -10,6 +10,7 @@ import {
 } from '../../modules/counter'
 import HeaderGame from "../../common/components/HeaderGame";
 import GameBar from "../../common/components/GameBar";
+import ButtonGame from "../../common/components/ButtonGame";
 
 const Game = props => (
   <div>
@@ -17,10 +18,24 @@ const Game = props => (
     <GameBar />
     <div className="content">
       <h2>infinitiveVerb</h2>
-      <p><button onClick={() => props.changePage()}>Return to Main</button></p>
-    </div>  
+      <ButtonGame
+        classButton="btn matchCard"
+        titleButton="matchCard"
+        event={() => props.changePage()}
+      />
+      <ButtonGame
+        classButton="btn newCard"
+        titleButton="Add New Card"
+        event={() => props.changePage()}
+      />
+      <ButtonGame
+        classButton="btn leaveGame"
+        titleButton="Leave the game"
+        event={() => props.changePage()}
+      />
+    </div>
   </div>
-)
+);
 
 const mapStateToProps = state => ({
   count: state.counter.count,
