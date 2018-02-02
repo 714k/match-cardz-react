@@ -1,0 +1,11 @@
+.logo {
+  margin: 0;
+  padding: 4em 0 2em 0;
+  height: 8em;
+  text-align: center; }
+
+.logo span {
+  display: block;
+  font-size: 3em;
+  font-weight: bold;
+  color: #a1c9cc; }
