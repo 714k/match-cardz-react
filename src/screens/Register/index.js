@@ -8,7 +8,7 @@ import {
   decrement,
   decrementAsync
 } from '../../modules/counter'
-import HeaderGame from "../../components/HeaderGame";
+import HeaderGame from "../../common/components/HeaderGame";
 
 const Register = props => (
   <div>

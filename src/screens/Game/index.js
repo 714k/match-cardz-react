@@ -8,7 +8,12 @@ import {
   decrement,
   decrementAsync
 } from '../../modules/counter'
+<<<<<<< Updated upstream
 import HeaderGame from "../../components/HeaderGame";
+=======
+import HeaderGame from "../../common/components/HeaderGame";
+import GameBar from "../../common/components/GameBar";
+>>>>>>> Stashed changes
 
 const Game = props => (
   <div>
